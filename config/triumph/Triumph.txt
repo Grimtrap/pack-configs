@@ -1,0 +1,7 @@
+printDefaultConfigs(false)
+printDocumentation(false)
+removeVanillaAdvancements(true)
+removeModAdvancements(false)
+keepAdvancements(["thebetweenlands", "twilightforest", "botania"])
+removeAdvancements([""])
+allowDragging(true)

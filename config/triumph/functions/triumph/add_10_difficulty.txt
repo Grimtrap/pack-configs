@@ -1,0 +1,1 @@
+scalinghealth difficulty add 10 @p
