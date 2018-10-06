@@ -1,0 +1,28 @@
++-------------+------------------+-------------------------+-----------------+------------------+---------------------------------------------------------------------------------+
+|          ID | DimensionType ID | Name                    | shouldLoadSpawn | Currently loaded | WorldProvider class                                                             |
++-------------+------------------+-------------------------+-----------------+------------------+---------------------------------------------------------------------------------+
+|           0 |                0 | overworld               |            true |             true | net.minecraft.world.WorldProviderSurface                                        |
+|           1 |                1 | the_end                 |           false |            false | net.minecraft.world.WorldProviderEnd                                            |
+|         684 |              684 | limbo                   |           false |            false | org.dimdev.dimdoors.shared.world.limbo.WorldProviderLimbo                       |
+|         685 |              685 | private_pockets         |           false |            false | org.dimdev.dimdoors.shared.world.pocketdimension.WorldProviderPersonalPocket    |
+|         686 |              686 | public_pockets          |           false |            false | org.dimdev.dimdoors.shared.world.pocketdimension.WorldProviderPublicPocket      |
+|         687 |              687 | dungeon_pockets         |           false |            false | org.dimdev.dimdoors.shared.world.pocketdimension.WorldProviderDungeonPocket     |
+|         688 |              687 | dungeon_pockets         |           false |            false | org.dimdev.dimdoors.shared.world.pocketdimension.WorldProviderDungeonPocket     |
+|          66 |               66 | EREBUS                  |           false |            false | erebus.world.WorldProviderErebus                                                |
+|         111 |              111 | lostcities              |           false |            false | mcjty.lostcities.dimensions.world.LostWorldProvider                             |
+|          10 |               10 | The Beneath             |           false |            false | com.shinoow.beneath.common.world.WorldProviderDeepDank                          |
+|          20 |               20 | betweenlands            |           false |            false | thebetweenlands.common.world.WorldProviderBetweenlands                          |
+|           4 |                4 | AetherI                 |           false |            false | com.legacy.aether.world.AetherWorldProvider                                     |
+|          -6 |               -6 | MINING_WORLD            |           false |            false | aroma1997.world.dimension.WorldProviderMining                                   |
+|        -127 |             -127 | Tropics                 |            true |             true | net.tropicraft.core.common.dimension.WorldProviderTropicraft                    |
+|           2 |              -11 | Storage Cell            |            true |             true | appeng.spatial.StorageWorldProvider                                             |
+|           7 |                7 | twilight_forest         |           false |             true | twilightforest.world.WorldProviderTwilightForest                                |
+|          -1 |               -1 | Nether                  |           false |            false | nex.world.WorldProviderNetherEx                                                 |
+|         -30 |              -30 | Asteroids               |            true |            false | micdoodle8.mods.galacticraft.planets.asteroids.dimension.WorldProviderAsteroids |
+|         -29 |              -29 | Mars                    |            true |            false | micdoodle8.mods.galacticraft.planets.mars.dimension.WorldProviderMars           |
+|         -31 |              -31 | Venus                   |            true |            false | micdoodle8.mods.galacticraft.planets.venus.dimension.WorldProviderVenus         |
+|         -28 |              -28 | Moon                    |            true |            false | micdoodle8.mods.galacticraft.core.dimension.WorldProviderMoon                   |
+| -2147483648 |      -2147483648 | Mystcraft_ProfilerDummy |           false |             true | com.xcompwiz.mystcraft.world.profiling.WorldProviderMystDummy                   |
++-------------+------------------+-------------------------+-----------------+------------------+---------------------------------------------------------------------------------+
+|          ID | DimensionType ID | Name                    | shouldLoadSpawn | Currently loaded | WorldProvider class                                                             |
++-------------+------------------+-------------------------+-----------------+------------------+---------------------------------------------------------------------------------+
