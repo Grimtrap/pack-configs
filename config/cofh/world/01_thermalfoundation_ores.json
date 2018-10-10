@@ -27,6 +27,30 @@
 				]
 			}
 		},
+		"platinum": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "thermalfoundation:ore",
+					"properties": {
+						"type": "platinum"
+					}
+				},
+				"material": "minecraft:stone",
+				"cluster-size": 3
+			},
+			"cluster-count": 1,
+			"min-height": 2,
+			"max-height": 30,
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					7
+				]
+			}
+		},
 		"tin": {
 			"distribution": "uniform",
 			"generator": {
