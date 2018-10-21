@@ -6,8 +6,7 @@ recipes.remove(<botania:manasteelhelm>);
 recipes.remove(<botania:manasteelchest>);
 recipes.remove(<botania:manasteellegs>);
 recipes.remove(<botania:manasteelboots>);
-recipes.remove(<botania:manasteelaxe);
-recipes.remove(<botania:manasteelshears>);
+recipes.remove(<botania:manasteelaxe>);
 recipes.remove(<botania:manasteelsword>);
 recipes.remove(<botania:manasteelpick>);
 recipes.remove(<botania:manasteelshovel>);
@@ -51,7 +50,7 @@ mods.astralsorcery.Altar.addDiscoveryAltarRecipe(<botania:manasteelshovel>, 250,
 			null, <botania:manaresource:3>, null]);
 mods.astralsorcery.Altar.addDiscoveryAltarRecipe(<botania:manasteelpick>, 250, 100, [
             <ore:ingotManasteel>, <ore:ingotManasteel>, <ore:ingotManasteel>,
-			null, <botania:manaresource:3>, null
+			null, <botania:manaresource:3>, null,
 			null, <botania:manaresource:3>, null]);
 mods.astralsorcery.Altar.addDiscoveryAltarRecipe(<botania:manasteelaxe>, 250, 100, [
             <ore:ingotManasteel>, <ore:ingotManasteel>, null,

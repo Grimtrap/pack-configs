@@ -1,0 +1,20 @@
+
+//Set icon item
+setIcon(<aroma1997sdimension:miningmultitool>)
+
+//Set title String
+setTitle("Onwards!")
+
+//Set description String
+setDescription("Create the mining multitool using the runic altar")
+
+//Add a parent advancement. The syntax is "modid:folder/path/to/the/advancement/then/filename"
+addParent("triumph:0_overworld/lexbotania")
+drawDirectLines(true)
+
+criteria = addCriteria("woodenpick", "minecraft:inventory_changed")
+criteria.addItem(<aroma1997sdimension:miningmultitool>)
+
+setRequirements("any")
+
+setRewardExperience(5)

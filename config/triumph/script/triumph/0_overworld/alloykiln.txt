@@ -1,0 +1,21 @@
+
+//This tells the script parser that the script requires Immersive Engineering. If the mod is not loaded, the script will be canceled.
+Parser.addRequiredMod("immersiveengineering")
+
+//Set the icon item
+setIcon(<immersiveengineering:stone_decoration:10>)
+
+//Set the title String
+setTitle("Metal Fusion")
+
+//Set the description String
+setDescription("Build an Alloy Kiln to create new alloys")
+
+//Add a parent advancement. The syntax is "modid:folder/path/to/the/advancement/then/filename"
+addParent("triumph:0_overworld/furnace")
+
+//Adds criteria named "formed" with the trigger type "immersiveengineering:multiblock_formed". This function returns the criteria as an object
+criteria = addCriteria("formed", "immersiveengineering:multiblock_formed")
+
+//Sets the required multiblock for the criteria. This is the multiblock that needs to be formed.
+criteria.setMultiblock("IE:AlloySmelter")

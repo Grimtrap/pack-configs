@@ -1,0 +1,18 @@
+
+//Set icon item
+setIcon(<botania:lexicon>)
+
+//Set title String
+setTitle("Botanist")
+
+//Set description String
+setDescription("Get started in Botania by creating a Lexica Botania")
+
+//Add a parent advancement. The syntax is "modid:folder/path/to/the/advancement/then/filename"
+addParent("triumph:0_overworld/furnace")
+drawDirectLines(true)
+
+criteria = addCriteria("acquireLexicon", "minecraft:inventory_changed")
+criteria.addItem(<botania:lexicon>)
+
+setRewardExperience(5)

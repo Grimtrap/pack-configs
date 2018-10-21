@@ -1,0 +1,29 @@
+
+//Set icon item
+setIcon(<minecraft:wooden_pickaxe>)
+
+//Set title String
+setTitle("Humble Beginnings")
+
+//Set description String
+setDescription("Acquire a pickaxe and begin your journey")
+
+//Add a parent advancement. The syntax is "modid:folder/path/to/the/advancement/then/filename"
+addParent("triumph:0_overworld/root")
+drawDirectLines(true)
+
+criteria = addCriteria("woodenpick", "minecraft:inventory_changed")
+criteria.addItem(<minecraft:wooden_pickaxe>)
+
+criteria = addCriteria("stonepick", "minecraft:inventory_changed")
+criteria.addItem(<minecraft:stone_pickaxe>)
+
+criteria = addCriteria("ironpick", "minecraft:inventory_changed")
+criteria.addItem(<minecraft:iron_pickaxe>)
+
+criteria = addCriteria("goldpick", "minecraft:inventory_changed")
+criteria.addItem(<minecraft:golden_pickaxe>)
+
+setRequirements("any")
+
+setRewardExperience(5)

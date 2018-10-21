@@ -61,10 +61,10 @@ recipes.addShaped("nature compass", <naturescompass:naturescompass>,
 				
 //stage 2, the nether
 recipes.addShaped("TE Machine Frame", <thermalexpansion:frame>, 
-				[[<ore:ingotIron>, <nex:soul_glass>, <ore:ingotIron>]
-				[<nex:soul_glass>, <ore:gearTin>, <nex:soul_glass>]
+				[[<ore:ingotIron>, <nex:soul_glass>, <ore:ingotIron>],
+				[<nex:soul_glass>, <ore:gearTin>, <nex:soul_glass>],
 				[<ore:ingotIron>, <nex:soul_glass>, <ore:ingotIron>]]);
 recipes.addShaped("TE Device Frame", <thermalexpansion:frame:64>, 
-				[[<ore:ingotIron>, <nex:soul_glass>, <ore:ingotIron>]
-				[<nex:soul_glass>, <ore:gearCopper>, <nex:soul_glass>]
+				[[<ore:ingotIron>, <nex:soul_glass>, <ore:ingotIron>],
+				[<nex:soul_glass>, <ore:gearCopper>, <nex:soul_glass>],
 				[<ore:ingotIron>, <nex:soul_glass>, <ore:ingotIron>]]);
